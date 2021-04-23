@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class DisabledTests {
-    public class DisabledTests {
+
         @Test
         @Disabled
         void some1Test() {
@@ -67,8 +67,5 @@ public class DisabledTests {
 
         @Test
         @Disabled
-        void some11Test() {
-            assertTrue(true);
-        }
-    }
+        void some11Test() { assertTrue(true); }
 }

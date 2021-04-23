@@ -18,6 +18,7 @@ allure {
 }
 
 dependencies {
+    implementation 'junit:junit:4.12'
     testImplementation "org.aspectj:aspectjweaver:1.9.6"
 
     testImplementation "org.junit.jupiter:junit-jupiter-api:5.7.1"

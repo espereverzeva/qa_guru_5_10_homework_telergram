@@ -3,8 +3,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SomeMorePositiveTests {
-    public class SomeMorePositiveTests {
-        @Test
+
+        @org.junit.Test
         void some1Test() {
             assertTrue(true);
         }
